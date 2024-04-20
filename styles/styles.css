@@ -16,6 +16,10 @@ width: 100%;
   margin-right: 2rem;
   
 }
+.sidebar_navigation{
+  display: flex;
+  gap: 1.875rem;
+}
 .sidebar{
 font-family: Raleway;
 font-size: 1rem;
@@ -74,12 +78,19 @@ text-align: left;
   list-style: none;
 }
 .header-link{
+display: flex;
+align-items: center;
+gap: 0.313rem;
 text-decoration: none;
 font-family: Raleway;
 font-size: 1rem;
 font-weight: 500;
 line-height: 1.174rem;
 text-align: left;
+
+}
+.header-link img{
+  width: 20%;
 }
 
 .header-img{
@@ -211,7 +222,7 @@ padding: 4px 0;
   background-color:#EAF2FD;
   color: #464646;
   max-width: 100%;
-  padding: 82px 152px;
+  padding: 5.125rem 9.5rem;
  
 }
 .training-itens{
@@ -231,16 +242,18 @@ margin-bottom: 2rem;
 display: flex;
 justify-content: space-between;
 }
-
+.training-flex{
+  width: 23rem;
+}
 
 .training-img{
   width: 100%;
-  max-width: 300px;
+  object-fit: cover;
   aspect-ratio: 1/1;
 }
 .training{
 font-family: Raleway;
-font-size: 1rem;
+font-size: 1.375rem;
 font-weight: 700;
 line-height: 25.83px;
 text-align: left;

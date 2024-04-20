@@ -13,6 +13,9 @@
       .header-section {
         align-items: center;
       }
+      .header-content{
+        gap: 1rem;
+      }
       .header-title {
         font-size: 1.375rem;
       }
