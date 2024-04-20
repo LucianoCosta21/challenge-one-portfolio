@@ -1,0 +1,373 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 0 9.5rem;
+}
+.sidebar{
+display: flex;
+justify-content: space-between;
+padding: 2rem 0;
+width: 100%;
+}
+.header-content{
+  margin-right: 2rem;
+  
+}
+.sidebar{
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.174rem;
+text-align: left;
+
+}
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 1.875rem;
+  list-style: none;
+}
+.nav-link{
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.174rem;
+text-align: left;
+color: #464646;
+text-decoration: none;
+}
+
+.header-section{
+  display: flex;
+  margin: 1.5rem 0 ;
+}
+.header-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 1.5rem;
+}
+.header-title{
+font-family: Raleway;
+font-size: 2rem;
+font-weight: 700;
+line-height: 2rem;
+text-align: left;
+
+}
+
+.header-subtitle{
+font-family: Raleway;
+font-size: 1.375rem;
+font-weight: 400;
+line-height: 1.614rem;
+text-align: left;
+}
+.header-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 1.875rem;
+  list-style: none;
+}
+.header-link{
+text-decoration: none;
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.174rem;
+text-align: left;
+}
+
+.header-img{
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#about-container{
+  background-color:#EAF2FD;
+  color: #464646;
+  padding: 4rem 0;
+  
+}
+
+.about{
+  margin: 0 9.5rem;
+}
+
+.about-title{
+font-family: Raleway;
+font-size: 2rem;
+font-weight: 700;
+line-height: 37.57px;
+text-align: left;
+margin-bottom: 1rem;
+}
+.about-subtitle{
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 400;
+line-height: 18.78px;
+text-align: left;
+}
+
+#skills-container{
+  background-color: #F5F5F5;
+  color: #464646; 
+  padding: 32px 0 88px 0;
+}
+.skills-title{
+font-family: Raleway;
+font-size: 2rem;
+font-weight: 700;
+line-height: 37.57px;
+text-align: center;
+margin-bottom: 32px;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 0 9.5rem;
+ 
+}
+.skills-itens{
+background-color: #FFFFFF;
+width: 156px;
+height: 154px;
+padding: 1rem;
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 700;
+line-height: 18.78px;
+text-align: left;
+align-content: end;
+margin-bottom: 1rem;
+border-radius: 5px;
+}
+
+.skills-list{
+list-style: none;
+
+}
+.skills-list li{
+list-style: none;
+padding: 4px 0;
+}
+
+#hobbies-container{
+  background-color: #F5F5F5;
+  color: #464646;
+  padding-bottom: 88px;
+}
+.hobbies-title{
+font-family: Raleway;
+font-size: 2rem;
+font-weight: 700;
+line-height: 37.57px;
+text-align: center;
+margin-bottom: 32px;
+}
+
+.hobbie{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 0 9.5rem;
+  
+}
+.hobbies-itens{
+  background-color: #FFFFFF;
+  width: 156px;
+  height: 154px;
+  padding: 1rem;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 18.78px;
+  text-align: left;
+  align-content: end;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+.hobbies-list{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.hobbies-list li{
+padding: 4px 0;
+}
+#training-container{
+  background-color:#EAF2FD;
+  color: #464646;
+  max-width: 100%;
+  padding: 82px 152px;
+ 
+}
+.training-itens{
+  border-radius: 5px;
+}
+
+.training-title{
+font-family: Raleway;
+font-size: 2rem;
+font-weight: 700;
+line-height: 37.57px;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.trainings{
+display: flex;
+justify-content: space-between;
+}
+
+
+.training-img{
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1/1;
+}
+.training{
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 700;
+line-height: 25.83px;
+text-align: left;
+}
+
+.training-span{
+font-family: Raleway;
+font-size: 0.8rem;
+font-weight: 500;
+line-height: 18.78px;
+text-align: left;
+}
+
+#experience-container{
+  padding: 2rem 9.5rem;
+}
+.experience-title{
+font-family: Raleway;
+font-size: 2rem;
+font-weight: 700;
+line-height: 37.57px;
+text-align: center;
+color: #464646;
+}
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 100%;
+}
+.experience-img{
+  background-size: cover; 
+  background-position: center; 
+  max-width: 100%;
+}
+
+.contact-container{
+  display: flex;
+  gap: 2rem;
+  color: #464646;
+  background-color: #EAF2FD;
+  padding: 130px 152px 65px 152px ;
+
+ 
+}
+
+.contact-img{
+  max-width: 464px;
+  max-height: 593px;
+}
+.contact-info{
+  width: 100%;
+}
+
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+
+ 
+}
+.contact-title{
+  font-family: Raleway;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.contact-subtitle{
+font-family: Raleway;
+font-size: 0.8rem;
+font-weight: 500;
+line-height: 18.78px;
+text-align: left;
+margin-bottom: 2rem;
+}
+.contact-flex{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 8px 12px ;
+  border-radius: 5px;
+}
+.contact-flex input {
+  border: none;
+  outline: none;
+}
+.contact-flex label{
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 400;
+line-height: 20px;
+ color: #A2A2A2;
+
+}
+
+.contact-flex textarea{
+  border-style: none;
+  resize: none;
+  outline: none;
+}
+
+.contact-btn{
+max-width: 165px;
+max-height: 51px;
+  background-color: #2A7AE4;
+ color: #FFFFFF;
+  padding: 16px;
+  border-style: none;
+  box-sizing: border-box;
+  
+}
+.footer{
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 18.78px; 
+  background-color: #FFFFFF;
+  color: #464646;
+  padding: 2rem 0;
+  text-align: center;
+
+  
+
+
+}
